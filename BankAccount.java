@@ -22,4 +22,8 @@ public class BankAccount {
     public String getAccountInfo(){
         return this.accountType + ":" + this.balance;
     }
+
+    public String getCustomerinfo(){
+        return this.customer.getName() + " from " + this.customer.getAddress();
+    }
 }

@@ -7,7 +7,7 @@ public class Customer {
     }
 
     public void setAddress(String address) {
-        this.address = address;
+        this.address=address;
     }
 
     public String getName() {
@@ -17,5 +17,7 @@ public class Customer {
     public String getAddress() {
         return address;
     }
+
+
 
 }
